@@ -51,8 +51,8 @@ public class Teste {
             veiculo.setQtdRodas(qtdRodas);
 
             // Criando e configurando o motor
-            veiculo.getMotor().setQtdPistao(qtdPistao);
-            veiculo.getMotor().setpotencia(potencia);
+            veiculo.getMotor().setQtdPist(qtdPistao);
+            veiculo.getMotor().setPotencia(potencia);
 
             veiculos[i] = veiculo;
         }
@@ -66,8 +66,8 @@ public class Teste {
             System.out.println("Cor: " + v.getCor());
             System.out.println("Velocidade Maxima: " + v.getVelocMax());
             System.out.println("Quantidade de Rodas: " + v.getQtdRodas());
-            System.out.println("Motor - Quantidade de Pistoes: " + v.getMotor().getqtdPistao());
-            System.out.println("Motor - Potencia: " + v.getMotor().getpotencia());
+            System.out.println("Motor - Quantidade de Pistoes: " + v.getMotor().getQtdPist());
+            System.out.println("Motor - Potencia: " + v.getMotor().getPotencia());
             System.out.println("-----------------------------");
         }
 

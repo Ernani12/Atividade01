@@ -3,33 +3,33 @@ package org.example;
 /*Ernani Batista Serafim*/
 
 public class Motor {
-    private int qtdPistao;
+    private int qtdPist;
     private int potencia;
 
     // Construtor padrão
     public Motor() {
-        this.qtdPistao = 0;
+        this.qtdPist = 0;
         this.potencia = 0;
     }
 
-    public Motor(int qtdPistao, int potencia) {
-        this.qtdPistao = qtdPistao;
+    public Motor(int qtdPist, int potencia) {
+        this.qtdPist = qtdPist;
         this.potencia = potencia;
     }
 
-    public int getqtdPistao() {
-        return qtdPistao;
+    public int getQtdPist() {
+        return qtdPist;
     }
 
-    public int getpotencia() {
+    public int getPotencia() {
         return potencia;
     }
 
-    public void setQtdPistao(int qtdPistao) {
-        this.qtdPistao = qtdPistao;
+    public void setQtdPist(int qtdPist) {
+        this.qtdPist = qtdPist;
     }
 
-    public void setpotencia(int potencia) {
+    public void setPotencia(int potencia) {
         this.potencia = potencia;
     }
 }
